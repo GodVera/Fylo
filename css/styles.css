@@ -1,0 +1,349 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 3% auto;
+  max-width: 1440px;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: hsl(238, 22%, 27%);
+  font-size: 2.3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 5% 0
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: hsl(238, 22%, 27%);
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 8% 0
+}
+
+p {
+  color: hsl(238, 22%, 27%);
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 5%;
+}
+
+.sec-design {
+  margin: 0 0 10% 0;
+}
+
+.container-fluid {}
+
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 7%;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-link {
+  color: hsl(238, 22%, 44%);
+  font-weight: 500;
+  margin: 0 20px;
+}
+
+.title-text {
+  padding: 1% 1% 1% 5%;
+}
+
+.e-mail-div {
+  margin-right: 10%
+}
+
+.input {
+  height: 38px;
+  font-size: 13px;
+  color: hsl(0, 0%, 75%);
+  width: 100%;
+  padding-left: 3%;
+}
+
+.big-im {
+  text-align: center;
+}
+
+.image {
+  max-width: 80%;
+}
+
+.image2 {
+  max-width: 80%;
+  margin-top: 15%;
+}
+
+.img-design {
+  padding: 0;
+  margin-bottom: -1%;
+}
+
+.testimonial {
+  background-color: hsl(240, 75%, 98%);
+}
+
+.green {
+  width: 190px;
+  border-bottom: 2px solid hsl(170, 45%, 43%);
+}
+
+.green-link {
+  font-size: 18px;
+  color: hsl(170, 45%, 43%);
+  text-decoration: none;
+}
+
+.arrow {
+  width: 20px;
+  float: right;
+  margin-top: 4px;
+}
+
+.sticker {
+  background: white;
+  box-shadow: 5px 10px 20px 1px hsl(0, 0%, 90%);
+  border-radius: 3%;
+  width: 370px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.portr {
+  width: 50px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+.st1 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.st2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+
+.st3 {
+  font-size: 12px;
+}
+
+.dark {
+  background-color: hsl(238, 22%, 44%);
+  padding-bottom: 4%;
+}
+
+.white {
+  color: white;
+}
+
+.input-bot {
+  height: 38px;
+  font-size: 13px;
+  color: hsl(0, 0%, 75%);
+  width: 80%;
+  padding-left: 3%;
+  margin: 15% 20px 1%;
+}
+
+.blue-but2 {
+  width: 45%;
+}
+
+.but-bot {
+  margin: 1% 20px 2%;
+}
+
+.very-dark {
+  background-color: hsl(243, 87%, 12%);
+  margin: 0 -12px 0;
+}
+
+.white-logo {
+  padding: 6% 2% 2% 5%;
+}
+
+.cont {
+  padding-left: 6%;
+  padding-right: 0;
+}
+
+.about-us {
+  padding-left: 12%;
+  padding-bottom: 5%;
+}
+
+.contact-us {
+  padding-left: 7%
+}
+
+.pic-loc {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.pic-white {
+  filter: invert(1);
+  width: 30px;
+  margin-right: 30px;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 15px;
+}
+
+@media (max-width: 400px) {
+  body {}
+
+  h1 {
+    font-size: 1.7rem;
+    margin: 10% 0;
+    text-align: center;
+  }
+
+  p {
+    font-size: 15px;
+    margin-bottom: 10%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .logo {
+    height: 20px;
+  }
+
+  .nav-link {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .navbar {
+    margin-bottom: 15%;
+  }
+
+  .title-one {
+    order: 2;
+  }
+
+  .title-two {
+    order: 1;
+  }
+
+  .p-title {
+    margin: 0 7% 10% 7%;
+  }
+
+  .e-mail-div {
+    margin: 0 5% 5% 5%;
+  }
+
+  .blue-but {
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
+
+  .h-mob {
+    font-size: 1.2rem;
+  }
+
+  .p-mob {
+    text-align: left;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+
+  .green {
+    margin: auto;
+    width: 160px;
+    margin-top: 7%;
+    padding-bottom: 5px;
+  }
+
+  .green-link {
+    font-size: 15px;
+  }
+
+  .sticker {
+    width: 330px;
+    padding: 20px;
+    margin-left: 6%;
+    margin-bottom: 15%;
+  }
+
+  .portr {
+    width: 30px;
+  }
+
+  .st1 {
+    font-size: 12px;
+    margin-bottom: 4%;
+  }
+
+  .st2 {
+    font-size: 10px;
+    padding-top: 0;
+  }
+
+  .st3 {
+    margin-bottom: 0;
+    font-size: 9px;
+  }
+
+  .dark {
+    text-align: center;
+  }
+
+  .p-mob2 {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding: 0 5% 0 5%;
+  }
+
+  .input-bot {
+    width: 60%;
+    margin: 5% 20px 1%;
+  }
+
+  .blue-but2 {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+
+ .very-dark{
+   padding-left: 15%;
+ }
+
+ .white-logo {
+   padding: 15% 2% 10%;
+ }
+
+ .white {
+   margin-bottom: 3%;
+ }
+
+ .about-us {
+   margin-top: 7%;
+   padding-left: 7%;
+ }
+
+ .social {
+   margin: 10% auto 5%;
+   width: 60%;
+ }
+}
